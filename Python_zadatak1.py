@@ -9,7 +9,7 @@ while True:
         B= float(input("driugi broj:"))
         break
     except ValueError:
-        print("greska uneste broj")
+        print("greska un este broj")
 
 operator= input("operator:")
 while True:
