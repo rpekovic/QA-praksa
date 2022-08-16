@@ -6,10 +6,10 @@ while True:
         print("greska uneste broj")
 while True:
     try:
-        B= float(input("drugi broj:"))
+        B= float(input("driugi broj:"))
         break
     except ValueError:
-        print("greska uneste novi broj")
+        print("greska uneste broj")
 
 operator= input("operator:")
 while True:
